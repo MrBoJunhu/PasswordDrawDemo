@@ -15,6 +15,7 @@
 		A5C5B8901F4C01F90029B205 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5C5B88E1F4C01F90029B205 /* LaunchScreen.storyboard */; };
 		A5C5B89B1F4C01F90029B205 /* PasswordDrawDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C5B89A1F4C01F90029B205 /* PasswordDrawDemoTests.m */; };
 		A5C5B8A61F4C01F90029B205 /* PasswordDrawDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C5B8A51F4C01F90029B205 /* PasswordDrawDemoUITests.m */; };
+		A5DA41E01F4C0317000AD022 /* PasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DA41DF1F4C0317000AD022 /* PasswordView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A5C5B8A11F4C01F90029B205 /* PasswordDrawDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordDrawDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5C5B8A51F4C01F90029B205 /* PasswordDrawDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordDrawDemoUITests.m; sourceTree = "<group>"; };
 		A5C5B8A71F4C01F90029B205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5DA41DE1F4C0317000AD022 /* PasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordView.h; sourceTree = "<group>"; };
+		A5DA41DF1F4C0317000AD022 /* PasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		A5C5B87F1F4C01F90029B205 /* PasswordDrawDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A5DA41DD1F4C0303000AD022 /* CustomViews */,
 				A5C5B8831F4C01F90029B205 /* AppDelegate.h */,
 				A5C5B8841F4C01F90029B205 /* AppDelegate.m */,
 				A5C5B8861F4C01F90029B205 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				A5C5B8A71F4C01F90029B205 /* Info.plist */,
 			);
 			path = PasswordDrawDemoUITests;
+			sourceTree = "<group>";
+		};
+		A5DA41DD1F4C0303000AD022 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				A5DA41DE1F4C0317000AD022 /* PasswordView.h */,
+				A5DA41DF1F4C0317000AD022 /* PasswordView.m */,
+			);
+			name = CustomViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +292,7 @@
 				A5C5B8881F4C01F90029B205 /* ViewController.m in Sources */,
 				A5C5B8851F4C01F90029B205 /* AppDelegate.m in Sources */,
 				A5C5B8821F4C01F90029B205 /* main.m in Sources */,
+				A5DA41E01F4C0317000AD022 /* PasswordView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +530,7 @@
 				A5C5B8AC1F4C01F90029B205 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5C5B8AD1F4C01F90029B205 /* Build configuration list for PBXNativeTarget "PasswordDrawDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +539,7 @@
 				A5C5B8AF1F4C01F90029B205 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5C5B8B01F4C01F90029B205 /* Build configuration list for PBXNativeTarget "PasswordDrawDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +548,7 @@
 				A5C5B8B21F4C01F90029B205 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
